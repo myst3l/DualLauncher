@@ -2,13 +2,13 @@ import subprocess
 import pyautogui
 import time
 
-url1 = 'https://www.twitch.tv/forsen'
+url1 = 'https://www.twitch.tv/xqc'
 url2 = 'https://www.twitch.tv/popout/xqc/chat?popout='
 
 # -------------------------------------------------------------------
 # STREAM WINDOW
 subprocess.Popen(['C:/Program Files/Google/Chrome/Application/chrome.exe', url1, '--new-window'])
-time.sleep(0.4)
+time.sleep(0.55)
 window1 = pyautogui.getWindowsWithTitle('Google Chrome')[0]
 
 window1.moveTo(100, 100)                                        # To get around window opening on second monitor
