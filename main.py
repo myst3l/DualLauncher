@@ -6,7 +6,7 @@ import win32gui
 import win32con
 
 
-url1 = 'https://www.twitch.tv/pokimane'
+url1 = 'https://www.twitch.tv/forsen'
 url2 = 'https://www.twitch.tv/popout/xqc/chat?popout='
 #
 subprocess.Popen(['C:/Program Files/Google/Chrome/Application/chrome.exe', url1, '--new-window'])
@@ -18,7 +18,7 @@ time.sleep(1)
 
 # MOVE, RESIZE, CLOSE CHAT AND SET TO THEATRE MODE
 
-window1 = pyautogui.getWindowsWithTitle('pokimane - Twitch')[0]
+window1 = pyautogui.getWindowsWithTitle('forsen - Twitch')[0]
 
 window1.moveTo(1912, -250)
 pyautogui.moveTo(2479, -225)
